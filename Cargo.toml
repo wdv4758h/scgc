@@ -1,6 +1,16 @@
 [package]
-name = "scgc"
-version = "0.0.1"
 authors = ["Chiu-Hsiang Hsu <wdv4758h@gmail.com>"]
+name = "scgc"
+version = "0.1.0"
 
 [dependencies]
+log = { version = "0.3.6", default-features = false }
+
+
+[[example]]
+name = "example1"
+path = "examples/example1.rs"
+
+[dev-dependencies]
+env_logger = "0.4.0"
+log = { version = "0.3.6", default-features = false }
